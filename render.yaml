@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: codeigniter-app
-    env: docker
-    repo: https://github.com/YOUR-USERNAME/YOUR-REPO.git
-    plan: free
-    branch: main
-    dockerfilePath: ./Dockerfile
-    autoDeploy: true
